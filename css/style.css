@@ -1,0 +1,133 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	color: #010101;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin:0;
+	padding:0;
+}
+
+ul{
+	margin: 0;
+	padding:0;
+	list-style: none;
+}
+
+a{
+	margin:0;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+a, select , input , textarea , button{
+	outline: none !important;
+}
+
+/*fonts */
+.reg-12{
+	font-size: 16px;
+}
+
+
+/* sidebar starts */
+.sidenav {
+    z-index: 999;
+    transition: all .4s ease;
+}
+
+.sidenav, .sidenav-header a, .sidenav .navbar-nav li a{
+	color: white !important;
+}
+
+.navbar-expand-xs {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    display: block;
+    overflow-y: auto;
+    width: 100%;
+    max-width: 300px;
+    padding-right: 0;
+    padding-left: 0;
+	background-color: #3A3F54;
+}
+
+/* main section starts */
+.main-content {
+	position: relative;
+    margin-left: 300px;
+}
+
+.nav-item a{
+	color: black !important;
+}
+
+.avatar {
+    font-size: 1rem;
+    display: inline-flex;
+    width: 48px;
+    height: 48px;
+    border-radius: .375rem;
+    background-color: #adb5bd;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar-sm {
+    width: 36px;
+    height: 36px;
+}
+
+.rounded-circle img{
+    border-radius: 50%!important;
+	width: 36px;
+    height: 36px;
+}
+
+.sidenav-toggler {
+    cursor: pointer;
+}
+
+.sidenav-toggler-dark .sidenav-toggler-line {
+    background-color: black;
+}
+
+.sidenav-toggler-inner {
+    position: relative;
+    z-index: 9999;
+}
+
+.sidenav-toggler-inner, .sidenav-toggler-line {
+    width: 18px;
+    transition: all .15s ease;
+}
+
+.sidenav-toggler-line {
+    position: relative;
+    display: block;
+    height: 2px;
+    background-color: #172b4d;
+}
+
+.sidenav-toggler-line:not(:last-child) {
+    margin-bottom: 3px;
+}
+
+.sidenav-toggler.active .sidenav-toggler-line:first-child {
+    width: 13px;
+    transform: translateX(5px);
+}
+
+.sidenav-toggler.active .sidenav-toggler-line:last-child {
+    width: 13px;
+    transform: translateX(5px);
+}
