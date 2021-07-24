@@ -1,1 +1,1 @@
-# slyde-delivery-admin-panel
+# OrderAx Admin Panel

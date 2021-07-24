@@ -5,11 +5,56 @@
 	}
 
 	.sidenav {
-		transform: translateX(-300px);
+		transform: translateX(-15rem);
 	}
 
 	.nav-open {
 		transform: translateX(0);
+	}
+
+	.accordion {
+		width: 100%;
+	}
+
+	.top-menu li:first-child {
+		padding: 0;
+		border: 0;
+		border-radius: 3.125rem;
+	}
+
+	.header-title {
+		border-bottom: 0;
+	}
+
+	.header-body {
+		margin-top: .3rem;
+		padding: 1rem 1rem;
+	}
+
+	.cf-xs{
+		padding-right: 0px;
+    	padding-left: 0px;
+	}
+
+	.card-item-body {
+		padding: 1.25rem .3rem;
+	}
+
+	.next-btn button {
+		width: 100%;
+	}
+
+	.next-btn button span:last-child {
+		position: absolute;
+		right: 3rem;
+	}
+
+	.opacity-on {
+		opacity: .4;
+	}
+
+	.brand{
+		margin-left: 2.5rem;
 	}
 }
 
@@ -20,11 +65,19 @@
 	}
 
 	.sidenav {
-		transform: translateX(-300px);
+		transform: translateX(-15rem);
 	}
 
 	.nav-open {
-		transform: translateX(0);
+		transform: translateX(-7.8rem);
+	}
+
+	.accordion {
+		width: 80%;
+	}
+
+	.opacity-on {
+		opacity: .4;
 	}
 }
 
@@ -35,31 +88,58 @@
 	}
 
 	.sidenav {
-		transform: translateX(-300px);
+		transform: translateX(-15rem);
 	}
 
 	.nav-open {
-		transform: translateX(0);
+		transform: translateX(-2.5rem);
+	}
+
+	.accordion {
+		width: 80%;
+	}
+
+	.opacity-on {
+		opacity: .4;
 	}
 }
 
 /* Large devices(md) (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (min-width: 992px) and (max-width: 1299.98px) {
 	.main-content {
 		margin-left: 0!important;
 	}
 
 	.sidenav {
-		transform: translateX(-300px);
+		transform: translateX(-15rem);
 	}
 
 	.nav-open {
-		transform: translateX(0);
+		transform: translateX(-2.5rem);
+	}
+
+	.opacity-on {
+		opacity: .4;
 	}
 }
 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+/* Laptop devices */
+@media (min-width: 1300px) and (max-width: 1531.98px){
+	
+}
+
+/* large desktops */
+@media (min-width: 1532px) and (max-width: 2499.99px) {
+	.c_custom{
+		max-width: 102.5rem !important;
+	}
+}
+
+/* 4k monitors */
+@media (min-width: 2500px) {
+	.c_custom{
+		max-width: 102.5rem !important;
+	}
 }
 
 
@@ -73,11 +153,18 @@
 *
 /****** Extra extra small devices (s6 mobiles, 320px and below) *******/
 @media (max-width: 320px) {
-	.active .sidenav-toggler-line {
-		background-color: white;
+	html, body{
+		font-size: 13px;
+	}
+
+	.brand{
+		margin-left: 1.5rem;
 	}
 }
 
 /****** Extra extra small devices (s6 mobiles, 375px and below) *******/
 @media (min-width: 321px) and (max-width: 376px) {
+	.brand{
+		margin-left: 2rem;
+	}
 }
